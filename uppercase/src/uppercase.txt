@@ -1,0 +1,4 @@
+THIS TEXT IS UPPERCASE
+MORE UPPERCASE
+CamleCaseText
+lower
