@@ -13,7 +13,7 @@ public class Main {
 
 	private static final Logger LOG = Logger.getLogger(Main.class.getName());
 
-	private static final String EMAIL_PATTERN = "[A-Za-z0-9!#$%&'+-/=?^_`{|}~\"]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-]+";
+	private static final String EMAIL_PATTERN = "((\"[A-Za-z0-9!#$@.%&'+-/=?^_`{|}~]+\")|([A-Za-z0-9!#$%&'+-/=?^_`{|}~]+))@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+";
 	
 	public static void main(String[] args) {
 		Path file = Paths.get(args[0]);
